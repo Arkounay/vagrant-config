@@ -25,4 +25,5 @@ $cfg['DefaultLang'] = 'fr';
 $cfg['ServerDefault'] = 1;
 $cfg['UploadDir'] = '';
 $cfg['SaveDir'] = '';
+$cfg['CheckConfigurationPermissions'] = false;
 ?>

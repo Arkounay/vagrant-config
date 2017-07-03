@@ -20,6 +20,7 @@ Host file example:
 
 ### How to use
 
+- `vagrant plugin install vagrant-winnfsd`
 - `vagrant up`: install or starts the machine
 
 

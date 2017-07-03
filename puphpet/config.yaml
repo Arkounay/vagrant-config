@@ -352,7 +352,7 @@ drush:
     install: '0'
     version: 8.0.5
 ruby:
-    install: '1'
+    install: '0'
     versions:
         rv_uevntj6akywo:
             default: '1'
@@ -363,7 +363,7 @@ ruby:
                 - activesupport@4.2.6
                 - vine@0.2
 python:
-    install: '0'
+    install: '1'
     packages: {  }
     versions: {  }
 nodejs:
