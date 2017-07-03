@@ -45,7 +45,7 @@ vagrantfile:
                 group: www-data
                 source: ./www
                 target: /var/www
-                sync_type: default
+                sync_type: nfs
                 smb:
                     smb_host: ''
                     smb_username: ''
@@ -245,8 +245,8 @@ apache:
             ssl_cipher: ''
             directories:
                 avd_568akk8g7hng:
-                    path: /var/www/%1/web
-                    directoryindex: 'app_dev.php'
+                    path: /var/www/*/web
+                    directoryindex: app.php index.php
                     options:
                         - Indexes
                         - FollowSymlinks
@@ -363,7 +363,7 @@ ruby:
                 - activesupport@4.2.6
                 - vine@0.2
 python:
-    install: '1'
+    install: '0'
     packages: {  }
     versions: {  }
 nodejs:
