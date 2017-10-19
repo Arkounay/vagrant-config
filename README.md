@@ -21,6 +21,7 @@ Host file example:
 ### How to use
 
 - `vagrant plugin install vagrant-winnfsd`
+- `vagrant plugin install vagrant-vbguest`
 - `vagrant up`: install or starts the machine
 
 
