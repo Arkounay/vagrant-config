@@ -40,3 +40,6 @@ Host file example:
 - Port: `2222`
 - Username: `vagrant`
 - Private key: `./puphpet/files/dot/ssh/id_rsa`
+
+### Emails
+By default e-mail preview should be available at http://192.168.56.101:8025/ if they are sent through port **1025**
